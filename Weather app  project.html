@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>WeatherScope</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🌤 WeatherScope</h1>
+
+    <div class="search-box">
+
+        <input
+        type="text"
+        id="cityInput"
+        placeholder="Enter city name">
+
+        <button id="searchBtn">
+            Search
+        </button>
+
+    </div>
+
+    <div class="weather-card">
+
+        <h2 id="city">Lagos</h2>
+
+        <h1 id="temp">28°C</h1>
+
+        <p id="condition">
+            Clear Sky
+        </p>
+
+        <div class="details">
+
+            <div class="detail-box">
+                <h3>Humidity</h3>
+                <p id="humidity">75%</p>
+            </div>
+
+            <div class="detail-box">
+                <h3>Wind</h3>
+                <p id="wind">10 km/h</p>
+            </div>
+
+            <div class="detail-box">
+                <h3>Feels Like</h3>
+                <p id="feelsLike">30°C</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
